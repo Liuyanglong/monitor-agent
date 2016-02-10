@@ -1,6 +1,12 @@
 falcon-agent
 ===
 
+fork自 openfalcon-agent，在此基础上 doing | to do 以下：
+  - 取消api中的endpoint字段，改为从系统hostname中获取；
+  - 增加参数，可以enable/disable http api，作为monitor service时使用；
+
+===
+
 This is a linux monitor agent. Just like zabbix-agent and tcollector.
 
 
